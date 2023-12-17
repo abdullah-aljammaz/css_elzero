@@ -1,0 +1,19 @@
+/* 
+Text Alignment 
+- Alignment
+- Direction
+- Vertical Alignment
+*/
+*{
+  vertical-align: middle;
+}
+div {
+  background-color: #ddd;
+  text-align: center;
+  direction: ltr;
+}
+/* div h3{
+  background-color: #ddd;
+  text-align: right;
+  direction: rtl;
+} */

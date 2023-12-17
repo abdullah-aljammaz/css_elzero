@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table caption {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+table {
+  text-align: center;
+  width: 700px;
+  border-spacing: 0;
+  border-bottom: 3px solid #009688;
+}
+
+table td {
+  padding: 15px;
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+
+table thead td {
+  font-weight: bold;
+  background-color: rgb(107, 101, 101);
+  color: white;
+  border-color: #eee;
+}
+.man-image,
+.girl-image {
+  width: 80px;
+  height: auto;
+}
+.blue-button {
+  background-color: #03a9f4;
+}
+.red-button {
+  background-color: #e91e63;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+/* 
+  Block
+  
+  - Take Full Width If No Width
+  - Add Lijne Break
+  - Respect Padding, Margin, Width, Height
+  
+  Inline
+
+  - Do Not Add Line Break
+  - Do Not Respect Width, Height 
+  - Respect Padding And Margin [ Just Left + Right ]
+
+  Inline-Block
+
+  - Allow Elements Before And After It
+  - Respect Padding, Margin, Width, Height
+
+
+*/
+
+div {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+span {
+  background-color: #eee;
+  /* width: 400px;
+  height: 200px; */
+  /* padding: 10px; */
+  margin: 10px;
+}
+.span2{
+  background-color: #eee;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+}

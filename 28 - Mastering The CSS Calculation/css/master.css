@@ -1,0 +1,54 @@
+/* 
+calc */
+body {
+  margin: 0;
+}
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #eee;
+  float: left;
+  /* width: calc(88% / 5);
+  margin-left: 2%; */
+
+  /* width: calc(94% / 5); */
+  /* margin-left: 1%; */
+
+  /* width: calc((100% - 90px) / 5); */
+  /* margin-left: 15px; */
+
+  width: calc((100% - 60px) / 5);
+  margin-left: 10px;
+  
+
+}
+
+/*  
+  Content Width Is:100%
+  6 Spaces 1% * 6 => 6% From Content Width
+  94% Available Space
+  5 Elements The Width Is: 94% / 5
+*/
+
+/*  
+  Content Width Is:100%
+  6 Spaces 2% * 6 => 12% From Content Width
+  88% Available Space
+  5 Elements The Width Is: 88% / 5
+*/
+
+
+/*  
+  Content Width Is:100%
+  6 Spaces 15px * 6 => 90px From Content Width
+  100% - 90px Available Space
+  5 Elements The Width Is: (100% - 90px) / 5
+*/
+
+/*  
+  Content Width Is:100%
+  6 Spaces 1px * 6 => 90px From Content Width
+  100% - 60px Available Space
+  5 Elements The Width Is: (100% - 60px) / 5
+*/

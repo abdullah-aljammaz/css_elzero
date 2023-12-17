@@ -1,0 +1,58 @@
+.parent .child .title {
+  color: red;
+}
+.parent .title {
+  color: blue;
+}
+.parent p {
+  color: green;
+}
+.title {
+  color: green;
+}
+
+.title-one {
+  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  max-height: 45px ;
+  max-width: 400px ;
+  text-align: center;
+  color: white;
+}
+
+.title-two {
+  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  max-height: 45px ;
+  max-width: 400px ;
+  text-align: center;
+  color: white;
+}
+.title-three {
+  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  max-height: 45px ;
+  max-width: 400px ;
+  text-align: center;
+  color: white;
+}
+.title-four {
+  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  max-height: 40px ;
+  max-width: 400px ;
+  text-align: center;
+  color: white;
+}

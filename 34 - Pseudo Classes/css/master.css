@@ -1,0 +1,51 @@
+/* 
+Pseudo Classes
+*/
+
+.one {
+  background-color: red;
+  color: white;
+}
+
+.two {
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+}
+p {
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+.ch:checked + label {
+  color: red;
+}
+.ch:checked {
+  display: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+:empty {
+  border: solid red 2px;
+}
+
+.in {
+  border: 2px solid black;
+}
+
+.in:focus {
+  border-color: red;
+  outline: none;
+}

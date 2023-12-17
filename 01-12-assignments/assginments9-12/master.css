@@ -1,0 +1,50 @@
+.shape1{
+  background-color: #ddd;
+  padding: 10px;
+  margin: auto;
+  border-width: 4px;
+  border-color: red;
+  border-style:solid ;
+  outline: solid black 5px;
+  display: inline-block;
+}
+.shape2{
+  background-color: #ddd;
+  padding: 10px;
+  margin: 20px;
+
+  border-width: 4px;
+  border-color: blue green;
+  border-style:solid ;
+  outline: solid black 5px;
+  display: inline-block;
+}
+.shape3{
+  background-color: #ddd;
+  padding: 10px;
+  margin: 20px;
+  border-width: 4px;
+  border-color: red green blue yellow;
+  border-style:dashed ;
+  outline: solid black 5px;
+  display: inline-block;
+}
+
+.note1{
+  background: #eee;
+  border-left: #ff0000 solid;
+  width: 400px;
+  padding:5px;
+}
+
+.note2{
+  background: #eee;
+  width: 400px;
+visibility: hidden;
+}
+.note3{
+  background: #eee;
+  border-left: #39aa65 solid;
+  width: 400px;
+  padding:5px;
+}

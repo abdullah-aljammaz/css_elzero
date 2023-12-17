@@ -1,0 +1,16 @@
+div {
+  background-color: red; /* Color name */
+  background-color: rgb(0 0 0 / 89%); /* Red Green Blue */
+  background-color: #90aFc3; /* Color Hex Code */
+  background-image: url("/img/image.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-position: left top; */
+  /* background-position: 100px 100px; */
+  /* background-position: 100% 100%; */
+  background-size: cover;
+  background-size: contain;
+  background-size: 300px 200px;
+  background-size: 30% 30%;
+
+}

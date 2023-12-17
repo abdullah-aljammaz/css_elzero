@@ -1,0 +1,27 @@
+ul {
+  width: 400px;
+  width: 400px;
+  list-style-position: outside;
+  list-style-type: none;
+  display: table;
+  margin: 0 auto;
+}
+ol{
+  padding-bottom:5px;
+}
+li {
+  margin: 20px;
+  background-color: #eee;
+}
+
+ol li {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+ul .third-class ul li {
+  list-style-type: circle;
+  padding: 5px;
+  list-style-position: inside;
+  background-color: #ffffff;
+}

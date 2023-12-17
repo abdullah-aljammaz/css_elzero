@@ -1,0 +1,21 @@
+/* 
+Font Family
+*/
+/* div {
+  background-color: #b8b0b0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+body{
+  font-family: 'Cairo', sans-serif;
+}
+/* .with-ser {
+  font-family: serif;
+}
+.san-ser {
+  font-family: sans-serif;
+} */
+div {
+  background-color: #b8b0b0;
+  padding: 10px;
+}

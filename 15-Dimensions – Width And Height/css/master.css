@@ -1,0 +1,11 @@
+div {
+  background-color: #f00;
+  padding: 10px;
+  /* display: inline-block; */
+  width: fit-content;
+  /* width: 400px; */
+  /* min-width: 400px;
+  max-width: 400px;
+  min-height: 40px ;
+  max-height: 100px ;*/
+}
